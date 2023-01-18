@@ -1,0 +1,26 @@
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Dashboard</a>
+  <a href="#">Account Management</a>
+  <a href="#">Inventory Management</a>
+  <a href="#">Feedback</a>
+</div>
+<nav class="navbar navbar-expand-sm bg-light">
+
+<div class="container-fluid" >
+<!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+        <button class="openbtn" onclick="openNav()">☰ </button>
+        </li>
+        <li class="nav-item">
+            <a href="/" class="navbar-brand nav-link"><img src="{{ url_for('static', filename = 'css/images/logo/IKEA-Logo2.png')}}" height="52px" width="136px"></a>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav ">
+        <li class="nav-item"><a href="/register" class="nav-link"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li class="nav-item"><a href="/login" class="nav-link"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+</div>
+
+</nav>
